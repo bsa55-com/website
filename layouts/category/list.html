@@ -1,0 +1,44 @@
+{{ define "legacy_main" }}
+<div id="content-sidebar-wrap">
+  <div id="content" class="hfeed">
+    {{ $wanted := .Params.category_name }}
+    {{ $pages := where site.RegularPages "Section" "posts" }}
+    {{ $matches := where $pages "Params.categories" "intersect" (slice $wanted) }}
+    {{ $paginator := .Paginate $matches.ByDate.Reverse 7 }}
+    <div class="breadcrumb">You are here: <a href="/" title="View Home">Home</a> / Archives for {{ .Title }}</div>
+    {{ range $paginator.Pages }}
+      {{ $imgMatches := findRE `(?is)<img[^>]+src="([^"]+)"[^>]*>` .Content 1 }}
+      {{ $imgSrc := "" }}
+      {{ if gt (len $imgMatches) 0 }}
+        {{ $imgTag := index $imgMatches 0 }}
+        {{ $srcParts := findRE `src="([^"]+)"` $imgTag 1 }}
+        {{ if gt (len $srcParts) 0 }}
+          {{ $imgSrc = replaceRE `^src="([^"]+)"$` `$1` (index $srcParts 0) }}
+        {{ end }}
+      {{ end }}
+      <div class="post hentry">
+        <h2 class="entry-title"><a href="{{ .RelPermalink }}" title="{{ .Title }}" rel="bookmark">{{ .Title }}</a></h2>
+        <div class="post-info"><span class="date published time" title="{{ .Date.Format "2006-01-02T15:04:05-0700" }}">{{ .Date.Format "January 2, 2006" }}</span></div>
+        <div class="entry-content">
+          {{ if $imgSrc }}<a href="{{ .RelPermalink }}" title="{{ .Title }}"><img src="{{ $imgSrc }}" class="alignleft post-image" alt="" decoding="async" loading="lazy" width="150" /></a>{{ end }}
+          <p>{{ .Plain | htmlUnescape | truncate 320 }}</p>
+        </div>
+        <div class="post-meta"><span class="categories">Filed Under:
+          {{ range $index, $cat := (.Params.categories | default (slice)) }}
+            {{ if gt $index 0 }}, {{ end }}
+            {{ if eq $cat "In the News" }}<a href="/category/inthenews/" rel="category tag">{{ $cat }}</a>{{ else if eq $cat "Historian" }}<a href="/category/historian/" rel="category tag">{{ $cat }}</a>{{ else }}{{ $cat }}{{ end }}
+          {{ end }}
+        </span></div>
+      </div>
+    {{ end }}
+    {{ if gt $paginator.TotalPages 1 }}
+    <div class="navigation">
+      <div class="alignleft">{{ if $paginator.HasNext }}<a href="{{ $paginator.Next.URL }}">&laquo; Older Posts</a>{{ end }}</div>
+      <div class="alignright">{{ if $paginator.HasPrev }}<a href="{{ $paginator.Prev.URL }}">Newer Posts &raquo;</a>{{ end }}</div>
+    </div>
+    {{ end }}
+  </div>
+  {{ partial "legacy/sidebar.html" . }}
+</div>
+{{ partial "legacy/sidebar_alt.html" . }}
+{{ end }}

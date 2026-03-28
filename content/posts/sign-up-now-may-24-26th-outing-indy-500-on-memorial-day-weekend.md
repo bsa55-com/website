@@ -1,0 +1,34 @@
++++
+title = 'Sign Up Now – May 24-26th Outing – Indy 500 on Memorial Day weekend'
+date = '2014-05-06T14:47:00-0400'
+url = '/2014/05/sign-up-now-may-24-26th-outing-indy-500-on-memorial-day-weekend/'
+categories = ['Announcements']
++++
+<p><span id="more-2003"></span></p>
+<p>&nbsp;<a href="/wp-content/uploads/2014/05/indypic.jpg"><img decoding="async" class="alignnone  wp-image-2004" alt="indypic" src="/wp-content/uploads/2014/05/indypic-150x150.jpg" width="120" height="120" srcset="/wp-content/uploads/2014/05/indypic-150x150.jpg 150w, /wp-content/uploads/2014/05/indypic-110x110.jpg 110w" sizes="(max-width: 120px) 100vw, 120px" /></a></p>
+<p><strong>When:</strong>May 24th-26th<br />
+<strong>Where:&nbsp;</strong>&nbsp;Indianpolis, IN<br />
+<strong>Time:</strong>&nbsp;&nbsp;<b>Arrive</b>&nbsp;at the St. Francis parking lot&nbsp;<b>at 5:30 for a 6:00 am departure, Saturday, May 24th<br />
+</b><b>Return&nbsp;</b>to St. Francis Leaving Indianapolis at 8am &#8211; 600 mile drive home</p>
+<p>Troop 55 received an invitation to march with the Cross Roads Council’s Marching Band and Flag Corp during the pre-race program of the Indianapolis 500.&nbsp; The pre-race program starts at 9:00am and has several dozen Marching Bands parade the full length of the track as the stands fill.&nbsp; Class A minus uniforms are a firm requirement for scouts and adults marching in the parade.&nbsp; The pre-race program ends 90 minutes before race time.&nbsp; This will enable the scouts attending time to get to their seats for the race.</p>
+<p>Any scout in their school’s marching band is invited to bring their instrument to play.&nbsp; We will bring our colors.&nbsp; It you’re a band person this is a very special event.</p>
+<p>This is a sun or rain event.&nbsp; It will only be cancelled for safety reasons; thunderstorms or a tornado watch.&nbsp; Everyone will be expected to march in their Class A minus regardless of the conditions.&nbsp; No hats or neckerchiefs are permitted leastthese be left on the track and cause a car accident during the race.&nbsp;</p>
+<p>Ear protection for the scouts is required.&nbsp; The track is a very loud place; likely the loudest place you have ever been.&nbsp; Ear plugs are a minimum requirement.&nbsp; Headsets with sound protection and radio capability are recommended so you have ear protection and can listen on the radio to the track announcer. These will be left on the bus while we march and retrieved when we return to our bus to drop off our flags, pick-up our lunches and tickets for the race; a bag with your name is recommended.</p>
+<p>&nbsp;</p>
+<p>Details:&nbsp;</p>
+<p>This is a major trip.&nbsp; We will need to leave at 6:00a on Saturday May 24 and drive 600 miles to Scout camp Belzer(<a href="http://www.crossroadsbsa.org/Related/Facilities/Camp%20Belzer.aspx">http://www.crossroadsbsa.org/Related/Facilities/Camp%20Belzer.aspx</a>) in Indianapolis and pitch our tents for the night.&nbsp; Everyone will need to awake at 3:30a be on the bus to go to the track by 4:30a Monday with a police escort.&nbsp; It’s a full day at the track including staying for the full race! It’s then off to dinner and back to Camp Belzer for the night.&nbsp; Monday we’ll break camp by 8:00aand it is a 600 mile drive home.&nbsp; All three days are very verylong days.&nbsp; Please consider this before committing to this outing.&nbsp; The effort involved is very much greater commitment than one of our monthly outings.</p>
+<p>To make this happen we’ll need all the adults and Scouts going registered no later than our Troop meeting on May 14<sup>th</sup>.&nbsp;&nbsp; We need to file our travel plans and make reservations for track day.&nbsp; We’ll need two drivers per car given the distance for safety.&nbsp; If we need to ration attendance due to a lack of drivers, preference will be given to scouts whose parents are driving.</p>
+<p>The adults are requested to bring day packs with them onto the bus Monday for race day.&nbsp; If it’s a very hot day, you will be expected to carry water for the Scouts to drink.&nbsp; It’s over 2 miles around a track with no shade and we’ll need to keep the scouts (and the adults!) hydrated.</p>
+<p>Cost:</p>
+<p>The fee for camping, attending the Indianapolis 500, the box lunch, and dinner Sunday is &nbsp;$100.&nbsp; All scouts will need to bring money to buy food during the two long days of driving. It is suggested that each scout have pocket money for race day to buy a snack, a memento, or visit the famed track museum during the race ($6 or $3 if under 15).&nbsp; Each car will set its food budget depending on its choice of eating styles; fast food or more formal dining.The adult owning the car will be donating its use and the extra driver is expected to help with the cost of fuel.Each Scout will need to bring enough money to buy lunch and dinner during the drive out Saturday and the drive back Monday.&nbsp; Given the need to move quickly each scout will be expected to pack their breakfasts for race day and Monday; a couple of breakfast bars and juice that does not need to be refrigerated.&nbsp;</p>
+<p>Each car will is expected to plan their camping arrangements.&nbsp; We’ll need to bring our own tents and camping gear.&nbsp; Open fires are will not be permitted.&nbsp; Full bathroom facilities are available for Scouts, men, women including showers.&nbsp; The pool at Camp Belzer is not expected to be open.&nbsp; Showers after a hot day at the track are highly encouraged.</p>
+<p>There are limited opportunities to charge your electronic devices at Camp Belzer; about 12 outlets for some 250 people.&nbsp; So bring you cameras fully charged.&nbsp; If you’rebring electronics for the car ride, you will need to bring car chargers and work out charging privileges with your car’s driver. &nbsp;</p>
+<p>Registration:&nbsp;</p>
+<p>The following form must be completed and turning in to Mr. Hochstein during our Troop meeting on the 7<sup>th</sup> or 14<sup>th</sup>.&nbsp;&nbsp; Registration verifications will be emailed by the 17<sup>th</sup>.&nbsp; Driver packets will be available for pick-up on the 21<sup>st</sup>.&nbsp; Please print VERY CLEARLY.&nbsp; If the scheduling team can’t read your information they reserve the option to not schedule your transportation.</p>
+<p><span style="text-decoration: underline;"><a title="Antietam battlefield" href="http://www.nps.gov/anti/index.htm">&nbsp;</a></span></p>
+<ul>
+<li><strong><a title="permission form" href="/wp-content/uploads/2014/05/Indy500_may24-26outing.pdf">Permission Signup Form</a>&nbsp; &nbsp;please download, fill out and present to Mr. Hochstein</strong></li>
+</ul>
+<p>&nbsp;</p>
+<p><a title="link to last biking outing" href="https://plus.google.com/photos/111507527417012068976/albums/5742187780123009217">&nbsp;</a></p>
+<p>&nbsp;</p>

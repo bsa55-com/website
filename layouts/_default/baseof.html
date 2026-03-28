@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ if .IsHome }}Boy Scout Troop 55B &amp; 55G{{ else }}{{ .Title }}{{ end }}</title>
+    <meta name="description" content="Great Falls, Virginia">
+    <link rel="Shortcut Icon" href="/wp-content/themes/education/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/wp-content/themes/education/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/wp-content/uploads/formidable/css/formidablepro__q_ver_2221542.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/wp-includes/css/dist/block-library/style.min__q_ver_6.2.9.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/wp-includes/css/classic-themes.min__q_ver_6.2.9.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/wp-content/plugins/captcha/css/style__q_ver_6.2.9.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/wp-includes/css/dashicons.min__q_ver_6.2.9.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/wp-content/plugins/captcha/css/desktop_style__q_ver_6.2.9.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/wp-content/plugins/contact-form-7/includes/css/styles__q_ver_4.1.1.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/wp-content/plugins/svg-vector-icon-plugin/admin/css/wordpress-svg-icon-plugin-style.min__q_ver_6.2.9.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/wp-content/plugins/ultimate-social-media-icons/css/sfsi-style__q_ver_6.2.9.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/wp-content/plugins/easy-table/themes/default/style__q_ver_1.5.3.css" type="text/css" media="all">
+    <style type="text/css" media="screen">
+      #rotator {
+        position: relative;
+        width: 450px;
+        height: 250px;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+    </style>
+    <style type="text/css">
+      .wp-block-gallery.is-layout-flex,
+      .wp-block-gallery.has-nested-images {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--wp--style--gallery-gap-default, 0.5em);
+        align-items: flex-start;
+      }
+      .wp-block-gallery.has-nested-images figure.wp-block-image {
+        margin: 0;
+      }
+      .wp-block-gallery.columns-default figure.wp-block-image {
+        width: calc(33.333% - 0.34em);
+      }
+      .wp-block-gallery.columns-default figure.wp-block-image img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      .wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image img {
+        height: 100%;
+        flex: 1;
+        object-fit: cover;
+      }
+      .wp-block-gallery.has-nested-images figure.wp-block-image > a,
+      .wp-block-gallery.has-nested-images figure.wp-block-image > img {
+        width: 100%;
+        height: 100%;
+      }
+      @media (max-width: 800px) {
+        .wp-block-gallery.columns-default figure.wp-block-image {
+          width: calc(50% - 0.25em);
+        }
+      }
+      @media (max-width: 520px) {
+        .wp-block-gallery.columns-default figure.wp-block-image {
+          width: 100%;
+        }
+      }
+    </style>
+    <script type="text/javascript" src="/wp-includes/js/jquery/jquery.min__q_ver_3.6.4.js"></script>
+    <script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min__q_ver_3.4.0.js"></script>
+    <script type="text/javascript" src="/wp-content/plugins/wp-cycle/jquery.cycle.all.min__q_ver_2.9999.5.js"></script>
+    <script type="text/javascript">
+      function toggleLinkGrp(id) {
+        var e = document.getElementById(id);
+        if (e.style.display === "block") {
+          e.style.display = "none";
+        } else {
+          e.style.display = "block";
+        }
+      }
+      jQuery(document).ready(function ($) {
+        if ($("#rotator").length) {
+          $("#rotator").cycle({
+            fx: "fade",
+            timeout: 3000,
+            speed: 1000,
+            pause: 1,
+            fit: 1
+          });
+        }
+      });
+    </script>
+  </head>
+  <body class="{{ if .IsHome }}home blog header-image nolayout{{ else }}page page-template-default header-image{{ end }}">
+    <div id="wrap">
+      <div id="topnav">
+        <div class="topnav-left">
+          <p>{{ now.Format "January 2, 2006" }}</p>
+        </div>
+        <div class="topnav-right"></div>
+      </div>
+      <div id="header">
+        <div class="wrap">
+          <div id="title-area">
+            {{ if .IsHome }}
+            <h1 id="title"><a href="/" title="Boy Scout Troop 55B &amp; 55G">Boy Scout Troop 55B &amp; 55G</a></h1>
+            {{ else }}
+            <p id="title"><a href="/" title="Boy Scout Troop 55B &amp; 55G">Boy Scout Troop 55B &amp; 55G</a></p>
+            {{ end }}
+            <p id="description">Great Falls, Virginia</p>
+          </div>
+          <div class="widget-area"></div>
+        </div>
+      </div>
+      <div id="nav">
+        <div class="wrap">
+          <ul id="menu-primary-menu" class="nav">
+            <li class="{{ if .IsHome }}current-menu-item current_page_item {{ end }}menu-item menu-item-home"><a href="/">Home</a></li>
+            <li class="{{ if eq .RelPermalink "/forms/" }}current-menu-item current_page_item {{ end }}menu-item"><a href="/forms/">Forms</a></li>
+            <li class="{{ if or (eq .RelPermalink "/handbook/") (eq .Section "handbook") }}current-menu-item current_page_item {{ end }}menu-item"><a href="/handbook/">Handbook</a></li>
+            <li class="{{ if eq .RelPermalink "/calendar-of-events/" }}current-menu-item current_page_item {{ end }}menu-item"><a href="/calendar-of-events/">Calendar</a></li>
+            <li class="{{ if eq .RelPermalink "/photos/" }}current-menu-item current_page_item {{ end }}menu-item"><a href="/photos/">Photos &amp; Videos</a></li>
+            <li class="{{ if eq .RelPermalink "/boy-scout-troop-55-fact-sheet/" }}current-menu-item current_page_item {{ end }}menu-item"><a href="/boy-scout-troop-55-fact-sheet/">About us</a></li>
+            <li class="{{ if eq .RelPermalink "/programs/" }}current-menu-item current_page_item {{ end }}menu-item"><a href="/programs/">Programs</a></li>
+            <li class="menu-item"><a href="/category/historian/">Historian</a></li>
+            <li class="menu-item"><a href="/category/inthenews/">In the News</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="inner">
+        <div class="wrap">
+          {{ block "legacy_main" . }}{{ end }}
+        </div>
+      </div>
+      <div id="footer" class="footer">
+        <div class="wrap">
+          <div class="gototop"><p><a href="#wrap" rel="nofollow">Return to top of page</a></p></div>
+          <div class="creds"><p>Copyright &copy; {{ now.Format "2006" }} Boy Scout Troop 55 - Great Falls, Virginia</p></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

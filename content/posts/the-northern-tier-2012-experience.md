@@ -1,0 +1,17 @@
++++
+title = 'The Northern Tier 2012 Experience'
+date = '2012-10-03T18:20:14-0400'
+url = '/2012/10/the-northern-tier-2012-experience/'
+categories = ['Historian', 'Trips']
++++
+<p><img decoding="async" class="alignleft" style="border: 0px; margin: 2px;" src="/wp-content/uploads/2012/10/039.jpg" alt="" width="328" height="246" />This summer a Troop 55 crew went on one of three High Adventures, Northern Tier. Those participating in the trip were Will F., Wesley P., Charles S., Drew D., Chandler L. (a Troop 673 scout), and the Crew Leader: Vinnie M. The advisors for our trip were Mr. MacKichan and his son Rob. For five days we journeyed over 60 miles in the boundary waters, it was a journey that we will all remember for the rest of our lives.</p>
+<p>In preparation for our trek we had several meetings. In these meetings we discussed travel plans, equipment, among other things. Each member of the crew had to get some heavy-duty boots that could drain water easily for the range of terrain at Northern Tier.</p>
+<p>On August 5th the crew departed from St. Francis Church and headed from Reagan Airport and had a layover from Minneapolis-St. Paul  and then to International Falls, Minnesota from there we drove a van all the way to Atikokan. In total 14 hours of travel! Once we arrived at the Northern Tier Atikokan High Adventure Base we headed to our cabin, where we would spend the night before we headed out on the water and then went to the Quartermaster to get our gear in order for tomorrow when we put out. Also that night we went and planned out our route with our Interpreter, Nick. At Northern Tier an Interpreter is a guide. Nick, a Atikokan local had traveled all over Quetico Provincial Park where we would be canoeing, gave us a few route options. The crew decided that we would travel to Russel Lake, a great fishing spot for walleye and spend a layover day there before traveling back.</p>
+<p>The first day on the water we got in our canoes for the first time and headed out. Unfortunately, it was very windy, and fearing that we would be capsized we had to stop early and spend the rest of the day camped out on an island in Pickerel Lake. We were behind schedule and considered not having our layover day because we were so far behind schedule. Instead, the crew decided that on day two we would push hard tackling a 1 mile, and 1-kilometer portage among others.</p>
+<p>There are three people in a canoe and each canoe has two packs. The types of packs that we had were day packs, with all our gear for the day, an equipment pack, a food pack, and Gray Whales, packs with personal gear. Sometimes while canoeing you would have to walk for a period of time from lake to lake. One person would take the canoe and the other two would take a pack.</p>
+<p>On day three we had our long anticipated layover day. We went fishing, swam, and took naps in the sun.  The next two days we got up early and worked our way back to the pick-up point.</p>
+<p>Northern Tier was a challenging and rewarding experience and an experience that all scouts should do. This is something that not many people get to do. We as scouts have an incredible opportunity to get out and explore the wilderness and it is an opportunity that we should not pass up. Northern Tier was an amazing that the rest of the crew and I will remember for the rest of our lives.</p>
+<p>As Reported by Will F.</p>
+<ul>
+<li><a href="https://picasaweb.google.com/111507527417012068976/NorthernTierHighAdventureTripSummer2012">View Pictures From The Northern Tier 2012 Trip Here</a></li>
+</ul>

@@ -1,0 +1,9 @@
+{{ define "legacy_main" }}
+<div id="content-sidebar-wrap">
+  <div id="content" class="hfeed">
+    {{ partial "legacy/home_content.html" . }}
+  </div>
+  {{ partial "legacy/sidebar.html" . }}
+</div>
+{{ partial "legacy/sidebar_alt.html" . }}
+{{ end }}

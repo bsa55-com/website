@@ -1,0 +1,15 @@
+{{ define "legacy_main" }}
+<div id="content-sidebar-wrap">
+  <div id="content" class="hfeed">
+    <div class="breadcrumb">You are here: <a href="/" title="View Home">Home</a> / {{ .Title }}</div>
+    <div class="post page type-page status-publish hentry">
+      <h1 class="entry-title">{{ .Title }}</h1>
+      <div class="entry-content">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+  {{ partial "legacy/sidebar.html" . }}
+</div>
+{{ partial "legacy/sidebar_alt.html" . }}
+{{ end }}

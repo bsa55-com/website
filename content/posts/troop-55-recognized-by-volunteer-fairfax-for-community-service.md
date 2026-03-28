@@ -1,0 +1,14 @@
++++
+title = 'Troop 55 Recognized by Volunteer Fairfax for Community Service'
+date = '2016-04-28T11:50:47-0400'
+url = '/2016/04/troop-55-recognized-by-volunteer-fairfax-for-community-service/'
+categories = ['Community Service', 'In the News']
++++
+<div id="attachment_4140" style="width: 515px" class="wp-caption alignleft"><a href="/wp-content/uploads/2016/04/mr_ye_rising_star.jpg"><img aria-describedby="caption-attachment-4140" decoding="async" class="  wp-image-4140  hspace=" src="/wp-content/uploads/2016/04/mr_ye_rising_star.jpg" alt="mr_ye_rising_star" width="505" height="284" srcset="/wp-content/uploads/2016/04/mr_ye_rising_star.jpg 670w, /wp-content/uploads/2016/04/mr_ye_rising_star-300x169.jpg 300w" sizes="(max-width: 505px) 100vw, 505px" /></a><p id="caption-attachment-4140" class="wp-caption-text">Jeff Ye receives the Volunteer Fairfax Rising Star Award from Fairfax County Board of Supervisors Chairman Sharon Bulova and District Supervisors.</p></div>
+<p>&nbsp;The Great Falls Connection posted a write-up on Troop 55&#8217;s recent recognition at the Volunteer Fairfax Awards. &nbsp;Mr. Jeff Ye was recognized in the &#8220;Rising Star&#8221; category. &nbsp;Wesley P., Mitchell P., James Y. and Daniel R. were all recognized in the Youth category.</p>
+<p><em>&#8220;Jeff Ye, community service coordinator for Boy Scout Troop 55, was selected and recognized as the “Rising Star” at the Fairfax County Volunteer Service Awards on April 8. Troop 55 is sponsored by St. Francis Episcopal Church, Great Falls.&#8221;</em></p>
+<p>Read the full article here: &nbsp;<a href="http://www.connectionnewspapers.com/news/2016/apr/27/great-falls-boy-scout-troop-55-leader-recognized-r/">http://www.connectionnewspapers.com/news/2016/apr/27/great-falls-boy-scout-troop-55-leader-recognized-r/</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div id="attachment_4139" style="width: 520px" class="wp-caption alignnone"><a href="/wp-content/uploads/2016/04/volunteer_fairfax_group_photo_john_fous.jpg"><img aria-describedby="caption-attachment-4139" decoding="async" loading="lazy" class="wp-image-4139 " src="/wp-content/uploads/2016/04/volunteer_fairfax_group_photo_john_fous.jpg" alt="volunteer_fairfax_group_photo_john_fous" width="510" height="287" srcset="/wp-content/uploads/2016/04/volunteer_fairfax_group_photo_john_fous.jpg 670w, /wp-content/uploads/2016/04/volunteer_fairfax_group_photo_john_fous-300x169.jpg 300w" sizes="(max-width: 510px) 100vw, 510px" /></a><p id="caption-attachment-4139" class="wp-caption-text">Troop 55 adult leaders and Scouts recognized for their outstanding community service efforts at the Fairfax County Volunteer Service Awards breakfast. From left, Scoutmaster Gary Pan, Assistant Scoutmaster Jeff Ye, Senior Patrol Leader Mitchell Pan, Dranesville District Supervisor John Foust, James Ye, Assistant Senior Patrol Leader Daniel Reuss, Assistant Scoutmaster Ted Reuss.</p></div>

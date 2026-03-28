@@ -1,0 +1,18 @@
++++
+title = 'Troop 55  2014 Summer Challenge 1:  “ScoutStrong Presidential Active Lifestyle Award (PALA)” Challenge'
+date = '2014-07-07T13:26:19-0400'
+url = '/2014/07/troop-55-2014-summer-challenge-1-scoutstrong-presidential-active-lifestyle-award-pala-challenge/'
+categories = ['Announcements']
++++
+<p dir="ltr"><a href="/wp-content/uploads/2014/07/ScoutStrongSmall.jpg"><img decoding="async" class="size-full wp-image-2172 alignleft" style="margin: 5px;" alt="ScoutStrongSmall" src="/wp-content/uploads/2014/07/ScoutStrongSmall.jpg" width="170" height="115"></a>Troop 55 &nbsp;2014 Summer Challenge 1: &nbsp;&#8220;ScoutStrong Presidential Active Lifestyle Award (PALA)&#8221; Challenge</p>
+<p dir="ltr"><strong>For the summer of 2014, &nbsp;Troop 55 is launching the 6 week challenge &#8220;ScoutStrong Presidential Active Lifestyle Award (PALA)&#8221;. This challenge is for everyone associated with Troop 55, including Scouts, Venturers, Parents, Adult Leaders, Committee Members, Friends of Scouting, and Troop 55 Alumni.</strong></p>
+<p dir="ltr"><span id="more-2139"></span></p>
+<p dir="ltr">To earn the SCOUTStrong PALA Challenge Award, you are required to meet a weekly nutrition goal, as well as a daily activity goal of 30 minutes a day for adults and 60 minutes a day for kids (under 18) for at least five days a week, for six out of eight weeks. &nbsp;For more information, please download the program brochure &nbsp;from &nbsp;<a href="http://www.scouting.org/filestore/ScoutStrong/pdf/210-040_web.pdf">http://www.scouting.org/filestore/ScoutStrong/pdf/210-040_web.pdf</a>. Troop 55 is initiating the program this summer, and intends to run the program year round for Troop 55 scouts.</p>
+<p>&nbsp;</p>
+<p dir="ltr">We encourage the participants to use the online tracking system to log their activities. &nbsp;Please go to the following link (under age 14 must get permission from a parent) <a href="http://www.scouting.org/scoutstrongpala.aspx">http://www.scouting.org/scoutstrongpala.aspx</a> to create an account. Please select &#8220;Maryland&#8221; for &#8220;State&#8221; drop down, and &#8220;National Capital Area Council -082&#8221; for &#8220;Council&#8221;. Once you create an account, make sure you go to &#8220;Account Settings&#8221; to enter your first name, last name, address and email information,&nbsp;and look up our group in the My Challenge application using the group number below.</p>
+<p><strong>Group Number: 946573</strong><br />
+<strong>Group Name: BSA Troop 55 Great Falls VA</strong></p>
+<p>&nbsp;</p>
+<p dir="ltr">Once a scout completes the 6-week challenge, please email Mr. Ye at email <a href="about:blank">yejeff [at] hotmail [dot] com</a> to coordinate and schedule a short review process (either with the Scout&#8217;s patrol leader or a Troop 55 adult leader). We will consolidate and forward the Scout&#8217;s award information to the Troop 55 Award coordinator. &nbsp;Scouts who complete the program will receive a &#8220;ScoutStrong&#8221; special patch. &nbsp;We will present this program award to scouts during the Court of Honor that follows their completion.</p>
+<p>&nbsp;</p>
+<p dir="ltr">After participants complete this challenge, they can continue the program with “Presidential Champions&#8221;(<a href="https://www.presidentschallenge.org/challenge/champions/index.shtml">https://www.presidentschallenge.org/challenge/champions/index.shtml</a>). The activity points that participants earned during &#8220;ScoutStrong PALA&#8221; challenge can be carried forward for to this new program. Troop 55 will support and encourage scouts to stay physically active every day by recognizing Scouts through this program.</p>

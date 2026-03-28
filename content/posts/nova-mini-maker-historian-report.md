@@ -1,0 +1,14 @@
++++
+title = 'NoVA Mini Maker Faire Volunteer Service – Historian Report'
+date = '2015-03-31T13:18:20-0400'
+url = '/2015/03/nova-mini-maker-historian-report/'
+categories = ['Community Service', 'Historian']
++++
+<p><img decoding="async" class=" wp-image-3006 alignleft" alt="Robo" src="/wp-content/uploads/2015/03/Robo-300x214.png" width="216" height="154" srcset="/wp-content/uploads/2015/03/Robo-300x214.png 300w, /wp-content/uploads/2015/03/Robo-1024x733.png 1024w, /wp-content/uploads/2015/03/Robo.png 1255w" sizes="(max-width: 216px) 100vw, 216px" /></p>
+<p>NoVA Mini Maker Faire Volunteer Service &#8211; Historian Report</p>
+<p>March &nbsp;15, 2015</p>
+<p>by James Y. (Scorpion Patrol Historian)</p>
+<p>On March 14, three scouts from Troop 55 went to Reston South Lakes High school for setup for the NoVA Mini Maker Faire that was being hosted there. Tables needed to be set up, boxes needed to be moved, and things needed to be taken the cafeteria, where the action would be taking place. Some objects were so heavy the needed to be pushed on carts. And some were so big it was a tight fit through the door. Everything needed to be set up because the next day was the real science fair. There were airplane building sections, a huge tent structure, computers and technology, and many sections for drones and robots.<span id="more-3004"></span></p>
+<p>The next day, on March 15, people came to see the science fair. Two scouts came to help out with extra preparations. Technology was set up again, and robots with cranes and gadgets were given to the viewers to enjoy, along as paper airplanes and remote controlled drones. There were so many activities, and people were running around everywhere. But some things still needed to be set up again. However, soon it was all ready.</p>
+<p><img decoding="async" loading="lazy" class="alignright size-medium wp-image-3007" alt="20150314_182133" src="/wp-content/uploads/2015/03/20150314_182133-300x168.jpg" width="300" height="168" srcset="/wp-content/uploads/2015/03/20150314_182133-300x168.jpg 300w, /wp-content/uploads/2015/03/20150314_182133-1024x575.jpg 1024w, /wp-content/uploads/2015/03/20150314_182133.jpg 1600w" sizes="(max-width: 300px) 100vw, 300px" />There were two tables for The First Lego League, which included computer programmed robots that was supposed to do up to eight hard actions, such as fling a ball into a goal, opening or closing doors, lifting things in and out, and using color scanners. There was one robot which was at least twice as big as the ones with the gadgets. People gathered around to see a miniature robot field, or crowded around a special table to try experiments or examine coins with a microscope. The science fair was very interesting, and it was a fun experience to help out and enjoy it all for a while.</p>
+<p>&nbsp;</p>

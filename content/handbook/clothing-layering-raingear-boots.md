@@ -1,0 +1,47 @@
++++
+title = 'Clothing, Layering, Rain Gear, Foot Gear'
++++
+
+<p>In the outdoors, clothing is the first line of defense. It keeps you warm in the winter, cool in the summer, dry in storms, and shielded from insects, sun and wind. To help decide what you need, learn about which clothing is made:</p>
+<p><span style="text-decoration: underline;">Wool</span><br />
+The long, red underwear of the miners and settlers was made of wool and for a good reason. Wool is durable and water resistant, and even when soaked it can keep you warm. Wool clothing is ideal in cold weather, and a wool shirt or sweater will ward off the chill of summer evenings, too. Wool makes excellent blankets, hiking socks, hats, and mittens. If wool irritates your skin, you may be able to wear wool blends or substitutes such as polypropylene.</p>
+<p><span style="text-decoration: underline;">Cotton</span><br />
+Cotton is cool, comfortable, and sturdy, but unlike wool it will not keep you warm when it is wet. Of course in hot weather that may be an advantage. Underwear and liner socks often are made of cotton, as are caps, shirts, and bandannas. However, in the winter cotton should not be selected for outer clothing as cotton breaths. A common saying among seasoned winter campers is, “Cool comfortable cotton kills.” Use a substitute in the winter.</p>
+<p><span style="text-decoration: underline;">Synthetics</span><br />
+Manufactured fabrics such as nylon, Orlon, and polypropylene have plenty of outdoor uses. Many are waterproof, and some are good insulation. Strong, lightweight, and easy to clean, they are used in rain gear, windbreakers, tents, packs, parkas, and sleeping bags.</p>
+<p><span style="text-decoration: underline;">Blends</span><br />
+Blended fabrics combine the advantages of several materials in a single piece of cloth. For example, a blend of synthetics and cotton makes shirts and shorts that are neat in appearance, yet tough enough for any wilderness adventure. A mixture of synthetics and wool goes into long wearing socks, shrink-resistant shirts, and warm jackets.</p>
+<p>&nbsp;</p>
+<p><strong>LAYERING SYSTEM</strong><br />
+For the most comfort in the outdoors use the layering system. Choose loose-fitting clothing that will meet the most extreme weather you expect to encounter, and be sure you can put it on and take it off a layer at a time. For example, on a chilly autumn day you might leave home wearing a long-sleeve shirt, long pants, a wool shirt, a sweater, mittens, and a stocking cap. As you hike, exercise will cause your body to generate more heat than it needs. Peel off the sweater and stuff it into your pack. If you are still too warm, unbutton the wool shirt or slip off the mittens and hat.</p>
+<p>When you reach your campsite and are no longer exerting yourself, stay warm by reversing the procedure, pulling on just enough layers of clothing to stay comfortable. After the sun goes down, you may want to add an insulated parka and wool trousers or long underwear.</p>
+<p>You can also use the layering system to keep cool in the summer by stripping down to hiking shorts, a T-shirt, and a brimmed hat. Despite the heat, always carry long pants and a long sleeve shirt for protection against sunburn, bugs, and brush.</p>
+<p>Versatility in your clothing is the key to a successful layering system. Several shirts, a sweater,<br />
+and a jacket will allow you to adjust your garb in many ways than a single heavy coat.</p>
+<p><strong>RAIN GEAR</strong><br />
+No matter how clear the skies as you pack for a trek, prepare for nasty weather. That means always taking along a poncho or raincoat, a pack cover, and perhaps rain pants and gaiters. Choose raingear that fits loosely enough to give you freedom of movement and allow perspiration to evaporate without condensation on the inside of the fabric.</p>
+<p>Long a favorite of adventurers, ponchos provide wet-weather security for both hikers and their gear. In emergencies, ponchos can serve as temporary shelters. They can, however, blow around in a strong wind, and thus may not give full protection in severe storms.</p>
+<p>Backpacker rain suits are almost invincible. Many feature hoods and large cargo pockets. Rain pants and rain chaps will protect your legs from wind, rain, and heavy dew, while gaiters will keep pebbles, water, mud, and snow out of your boots and away from socks.</p>
+<p>Although most packs can repel rain for a time, make sure your gear stays dry by taking along a<br />
+pack cover. You may make a simple one by cutting a slit in a garbage bag and tucking the loose ends<br />
+around your pack frame, or you can buy or sew a cover especially contoured to fit your pack.</p>
+<p>&nbsp;</p>
+<p><strong>FOOT GEAR</strong><br />
+Many back-country treks involve miles of trail hiking. Others, such as kayaking, rafting, mountain climbing, and cross country skiing, require specialized shoes or boots, but even then you may find that you need to walk some distance to reach a river, a mountain, or a snowfield. No matter how you spend your time in the outdoors, you’ll probably want to have a pair of good, durable hiking boots.</p>
+<p><span style="text-decoration: underline;">Leather Boots</span><br />
+When you are hiking, your feet and ankles take a tremendous pounding. Quality hiking boots will give them support and protection they need to withstand the jarring of each step. The best leather boots are made of top grain leather, which breathes, allowing moisture from your feet to escape. A minimum of seams keeps wetness from penetrating. Lug soles provide the most traction, though smoother soles are usually adequate, frequently lighter, and often less damaging to trails. Since a pound of weight on your feet is equal to 5 pounds on your back, stick with boots that weigh no more that 3 to 5 pounds a pair for trail wear. Mountaineering boots are heavier and more rigid, and appropriate only for the specialized needs of climbers.</p>
+<p><span style="text-decoration: underline;">Ultra light Trail Boots</span><br />
+Made with the same synthetic materials and high performance designs as running shoes, ultra light trail boots weigh just a few pounds a pair, need little breaking in, dry quickly, and are fine for walking well-maintained trails. They may not be sufficiently waterproofed for wet, muddy trails or sturdy enough for rugged backcountry use, especially if you are carrying a heavy pack.</p>
+<p><span style="text-decoration: underline;">Selecting Footwear</span><br />
+When you go into a store to try on boots, wear the socks in which you plan to hike. Unlace a boot, slip in your foot, and kick you toes forward. If the boot is the right length, you should be able to slide two fingers between you heel and the back of the boot.</p>
+<p>Next, kick your heel back into the heel pocket and with the boot snugly laced, walk around the shop, go up and down some stairs, and do a few deep knee bends. You want to be sure your heel isn’t sliding up and down inside the boot, and that the widest part of your foot isn’t swimming around or being squeezed. After you’ve tried out one pair, redo the same tests on several other models, taking plenty of time to get a real feel for the fit. Inspect each boot for quality workmanship, and get the opinions of experienced hikers. Before you buy, make sure the store will allow you to bring the boots back, undamaged, if they don’t fit. That way you can take them home and wear them for several days inside<br />
+the house. If they still feel good, you’ve probably got a pair that’s right for you.</p>
+<p><span style="text-decoration: underline;">Breaking in Leather Boots</span><br />
+Like new baseball gloves, new leather boots usually are stiff. They must be broken in before you wear them on an extended trek or you’re in for a crop of blisters. First, treat your boots with the dressing recommended by the manufacturer. Rub it thoroughly into the leather with a rag or you hand. This will protect the boots and help them repel water. You may also want to guard the boot seams against moisture and abrasion by applying a commercial seam sealer.</p>
+<p>Wear the boots around the house and on short hikes until they have loosened. Gradually extend the length of the walks on which you wear them, and soon they’ll feel like a natural part of your feet.</p>
+<p><span style="text-decoration: underline;">Caring for Boots</span><br />
+No matter what kind of boots you have, clean them after every outing. When boots are muddy, use a stiff brush to remove the mud, then apply more dressing to the leather. If they become wet, dry them at room temperature. Never expose them to more heat than you can tolerate on the back of your hand. Synthetics may melt, and leather can become hardened and cracked. Take care of your boots and they’ll give you years of good service.</p>
+<p><span style="text-decoration: underline;">Running Shoes, Moccasins, Mukluks, and Booties</span><br />
+When you reach camp after a long hike, it’s sheer heaven to get your feet out of the boots that encased them all day and slip into moccasins or running shoes. On the trail, you can also change into running shoes if you need to wade across a stream. You’ll have the foot protection you need, and your boots will stay dry. In the winter, mukluks and insulated booties with nonskid soles are great for wearing around camp and in your tent.</p>
+<p>&nbsp;</p>
+<p>© 2005 by Great Falls Virginia Troop 55 Handbook Updated Spring 2005</p>

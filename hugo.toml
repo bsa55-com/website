@@ -1,0 +1,46 @@
+baseURL = "https://bsa55.com/"
+languageCode = "en-us"
+title = "Troop 55"
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[permalinks]
+  posts = "/:year/:month/:slug/"
+
+[params]
+  description = "Static rebuild for bsa55.com"
+  heroImage = "/wp-content/uploads/2021/06/GLY_083020_12GE-53-resized.jpg"
+
+[menus]
+  [[menus.main]]
+    name = "Home"
+    pageRef = "/"
+    weight = 10
+  [[menus.main]]
+    name = "Forms"
+    pageRef = "/forms"
+    weight = 20
+  [[menus.main]]
+    name = "Handbook"
+    pageRef = "/handbook"
+    weight = 30
+  [[menus.main]]
+    name = "Calendar"
+    pageRef = "/calendar-of-events"
+    weight = 40
+  [[menus.main]]
+    name = "Photos"
+    pageRef = "/photos"
+    weight = 50
+  [[menus.main]]
+    name = "Programs"
+    pageRef = "/programs"
+    weight = 60
+  [[menus.main]]
+    name = "History"
+    pageRef = "/troop-55-history"
+    weight = 70
