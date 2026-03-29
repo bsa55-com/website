@@ -26,6 +26,99 @@
         padding: 0;
         overflow: hidden;
       }
+      #header {
+        position: relative;
+        height: auto;
+        min-height: 110px;
+      }
+      #header .wrap {
+        position: relative;
+        display: block;
+      }
+      #title-area {
+        float: left;
+      }
+      #header .widget-area {
+        position: absolute;
+        top: 14px;
+        right: 0;
+        width: auto;
+        max-width: none;
+        box-sizing: border-box;
+        padding-top: 0;
+        margin-left: 0;
+      }
+      #header .header-tools {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 0;
+        margin-left: auto;
+        width: fit-content;
+      }
+      #header .utility-widget {
+        width: auto;
+        text-align: left;
+      }
+      #header .widget {
+        margin: 0;
+      }
+      #header .widget-wrap {
+        background: transparent;
+        border: 0;
+        padding: 6px 0 8px;
+      }
+      #header .widgettitle {
+        color: #4a6450;
+        margin: 0 0 4px;
+        font-size: 14px;
+        font-weight: bold;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.35);
+      }
+      #header .widget-area h4,
+      #header .widget-area .widgettitle {
+        color: #4a6450 !important;
+      }
+      #header .searchform {
+        float: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 6px;
+      }
+      #header .searchform .s {
+        flex: 1 1 auto;
+        min-width: 0;
+        width: auto;
+      }
+      #header .s {
+        width: auto;
+        margin: 0;
+        padding: 5px 6px;
+      }
+      #header select {
+        width: 150px;
+        display: block;
+        margin: 0;
+        padding: 3px 4px;
+      }
+      #header .searchsubmit {
+        margin-left: 0;
+        padding: 5px 8px;
+        white-space: nowrap;
+      }
+      #header .widget_archive select,
+      #header .widget_search .s,
+      #header .widget_search .searchsubmit {
+        font-size: 12px;
+      }
+      #header .screen-reader-text {
+        position: absolute;
+        left: -9999px;
+      }
     </style>
     <style type="text/css">
       .wp-block-gallery.is-layout-flex,
@@ -110,7 +203,7 @@
             {{ end }}
             <p id="description">Great Falls, Virginia</p>
           </div>
-          <div class="widget-area"></div>
+          <div class="widget-area">{{ partial "legacy/top_tools.html" . }}</div>
         </div>
       </div>
       <div id="nav">
