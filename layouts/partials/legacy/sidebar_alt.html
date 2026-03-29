@@ -256,8 +256,8 @@ Webmaster:<a href="mailto:troop55webmaster@gmail.com">Troop55Webmaster</a><br />
 			</div></div>
 <div id="search-3" class="widget widget_search"><div class="widget-wrap"><h4 class="widgettitle">Search Our Site</h4>
 
-		<form method="get" class="searchform" action="/" >
-			<input type="text" value="Search this website &hellip;" name="s" class="s" onfocus="if (this.value == 'Search this website &hellip;') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search this website &hellip;';}" />
+		<form method="get" class="searchform" action="/search/" onsubmit="if (this.q.value == 'Search this website &hellip;') { this.q.value = ''; }" >
+			<input type="text" value="Search this website &hellip;" name="q" class="s" onfocus="if (this.value == 'Search this website &hellip;') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search this website &hellip;';}" />
 			<input type="submit" class="searchsubmit" value="Search" />
 		</form>
 	</div></div>
