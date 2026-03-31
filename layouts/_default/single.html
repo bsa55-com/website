@@ -1,6 +1,16 @@
 {{ define "legacy_main" }}
 {{ if .Params.hideSidebar }}
-<div id="content" class="hfeed" style="width: 940px;">
+<div id="content" class="hfeed" style="width: 940px;" data-pagefind-body>
+  {{ $imgMatches := findRE `(?is)<img[^>]+src="([^"]+)"[^>]*>` .Content 1 }}
+  {{ $imgSrc := "" }}
+  {{ if gt (len $imgMatches) 0 }}
+    {{ $imgTag := index $imgMatches 0 }}
+    {{ $srcParts := findRE `src="([^"]+)"` $imgTag 1 }}
+    {{ if gt (len $srcParts) 0 }}
+      {{ $imgSrc = replaceRE `^src="([^"]+)"$` `$1` (index $srcParts 0) }}
+    {{ end }}
+  {{ end }}
+  {{ partial "pagefind_meta.html" (dict "src" $imgSrc) }}
   <div class="breadcrumb">You are here: <a href="/" title="View Home">Home</a> / {{ .Title }}</div>
   <div class="post page type-page status-publish hentry">
     <h1 class="entry-title">{{ .Title }}</h1>
@@ -11,7 +21,17 @@
 </div>
 {{ else }}
 <div id="content-sidebar-wrap">
-  <div id="content" class="hfeed">
+  <div id="content" class="hfeed" data-pagefind-body>
+    {{ $imgMatches := findRE `(?is)<img[^>]+src="([^"]+)"[^>]*>` .Content 1 }}
+    {{ $imgSrc := "" }}
+    {{ if gt (len $imgMatches) 0 }}
+      {{ $imgTag := index $imgMatches 0 }}
+      {{ $srcParts := findRE `src="([^"]+)"` $imgTag 1 }}
+      {{ if gt (len $srcParts) 0 }}
+        {{ $imgSrc = replaceRE `^src="([^"]+)"$` `$1` (index $srcParts 0) }}
+      {{ end }}
+    {{ end }}
+    {{ partial "pagefind_meta.html" (dict "src" $imgSrc) }}
     <div class="breadcrumb">You are here: <a href="/" title="View Home">Home</a> / {{ .Title }}</div>
     <div class="post page type-page status-publish hentry">
       <h1 class="entry-title">{{ .Title }}</h1>
@@ -20,8 +40,12 @@
       </div>
     </div>
   </div>
-  {{ partial "legacy/sidebar.html" . }}
+  <div data-pagefind-ignore>
+    {{ partial "legacy/sidebar.html" . }}
+  </div>
 </div>
-{{ partial "legacy/sidebar_alt.html" . }}
+<div data-pagefind-ignore>
+  {{ partial "legacy/sidebar_alt.html" . }}
+</div>
 {{ end }}
 {{ end }}

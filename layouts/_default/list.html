@@ -1,6 +1,7 @@
 {{ define "legacy_main" }}
 <div id="content-sidebar-wrap">
-  <div id="content" class="hfeed">
+  <div id="content" class="hfeed" data-pagefind-body>
+    {{ partial "pagefind_meta.html" (dict "src" "") }}
     {{ if and .Params.archive_year .Params.archive_month }}
     {{ $year := printf "%v" .Params.archive_year }}
     {{ $month := printf "%02v" .Params.archive_month }}
@@ -65,7 +66,11 @@
     </div>
     {{ end }}
   </div>
-  {{ partial "legacy/sidebar.html" . }}
+  <div data-pagefind-ignore>
+    {{ partial "legacy/sidebar.html" . }}
+  </div>
 </div>
-{{ partial "legacy/sidebar_alt.html" . }}
+<div data-pagefind-ignore>
+  {{ partial "legacy/sidebar_alt.html" . }}
+</div>
 {{ end }}

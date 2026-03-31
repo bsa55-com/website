@@ -6,181 +6,229 @@
       <h1 class="entry-title">{{ .Title }}</h1>
       <div class="entry-content">
         {{ .Content }}
-        <link rel="stylesheet" href="/pagefind/pagefind-ui.css">
         <style type="text/css">
-          .pagefind-shell {
+          .search-shell {
             margin-top: 20px;
           }
-          .pagefind-ui {
-            --pagefind-ui-scale: 0.92;
-            --pagefind-ui-primary: #ac590a;
-            --pagefind-ui-text: #333333;
-            --pagefind-ui-background: #ffffff;
-            --pagefind-ui-border: #cccccc;
-            --pagefind-ui-tag: #f7f7f7;
-            --pagefind-ui-border-width: 1px;
-            --pagefind-ui-border-radius: 0px;
-            font-family: Arial, Tahoma, Verdana, sans-serif;
-            color: #333333;
-          }
-          .pagefind-ui * {
-            border-radius: 0 !important;
-            box-shadow: none !important;
-          }
-          .pagefind-ui__form {
-            margin-bottom: 20px;
-          }
-          .pagefind-ui__search-input {
-            font-family: Arial, Tahoma, Verdana, sans-serif;
-            font-size: 12px;
-            padding: 6px 0 6px 5px;
-            border: 1px solid #7b6e5f;
+          .search-form {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border: 1px solid #cccccc;
             background: #ffffff;
+            padding: 10px 12px;
+            margin: 0 0 20px;
           }
-          .pagefind-ui__search-clear,
-          .pagefind-ui__button {
+          .search-form .search-icon {
+            color: #666666;
+            font-size: 22px;
+            line-height: 1;
+            flex: 0 0 auto;
+          }
+          .search-form input[type="search"] {
+            flex: 1 1 auto;
+            min-width: 0;
+            border: 0;
+            background: transparent;
+            color: #000000;
+            font-family: Arial, Tahoma, Verdana, sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 1.2;
+            padding: 0;
+            outline: none;
+          }
+          .search-form button {
+            flex: 0 0 auto;
+            border: 1px solid #7b6e5f;
+            background: #f5f2e8;
+            color: #4b4b4b;
             font-family: Arial, Tahoma, Verdana, sans-serif;
             font-size: 12px;
+            font-weight: 400;
+            padding: 5px 10px;
+            cursor: pointer;
           }
-          .pagefind-ui__drawer {
-            margin-top: 10px;
+          .search-form button:hover {
+            background: #ece5d4;
           }
-          .pagefind-ui__message {
+          .search-count {
             font-family: Arial, Tahoma, Verdana, sans-serif;
             font-size: 11px;
+            font-weight: bold;
             text-transform: uppercase;
-            letter-spacing: 0;
             color: #666666;
             margin: 0 0 10px;
           }
-          .pagefind-ui__results {
+          .search-results {
             margin-top: 0;
           }
-          .pagefind-ui__result {
+          .search-result {
             margin: 0 0 30px;
-            padding: 0;
-            border-top: 0;
-            overflow: hidden;
-          }
-          .pagefind-ui__result-link {
-            display: block;
-            text-decoration: none;
-            overflow: hidden;
-            color: inherit;
-          }
-          h3.pagefind-ui__result-title,
-          .pagefind-ui__result-title,
-          .pagefind-ui__result-title a,
-          .pagefind-ui__result-link .pagefind-ui__result-title {
-            font-family: Georgia, "Times New Roman", Trebuchet MS, serif;
-            font-size: 22px;
-            font-weight: normal;
-            line-height: 1.1;
-            color: #ac590a !important;
-            margin: 0 0 5px;
-            text-decoration: none;
-          }
-          .pagefind-ui__result-link:hover .pagefind-ui__result-title,
-          .pagefind-ui__result-title:hover,
-          .pagefind-ui__result-title a:hover {
-            color: #ac590a;
-            text-decoration: underline;
-          }
-          .pagefind-ui__result-inner {
-            padding-top: 5px;
+            padding-top: 24px;
             border-top: 1px dotted #cccccc;
-          }
-          .pagefind-ui__result-nested {
-            display: none;
-            font-size: 11px;
-            margin: 0 0 10px;
-            padding: 5px 0 0;
-            text-transform: uppercase;
-            color: #333333;
-          }
-          .pagefind-ui__result-inner {
             overflow: hidden;
           }
-          .pagefind-ui__result-thumb {
+          .search-result-inner {
+            overflow: hidden;
+          }
+          .search-result-thumb {
             float: left;
-            width: 150px;
             margin: 0 10px 0 0;
             border: 1px solid #dddddd;
             padding: 4px;
             background: #ffffff;
           }
-          .pagefind-ui__result-thumb img {
+          .search-result-thumb img {
             display: block;
-            width: 100%;
+            max-width: 150px;
             height: auto;
           }
-          .pagefind-ui__result-excerpt {
+          .search-result-title {
+            margin: 0 0 5px;
+            padding: 0;
+          }
+          .search-result-title a {
+            color: #ac590a;
+            font-family: Georgia, "Times New Roman", Trebuchet MS, serif;
+            font-size: 22px;
+            font-weight: normal;
+            line-height: 1.1;
+            text-decoration: none;
+          }
+          .search-result-title a:hover {
+            color: #ac590a;
+            text-decoration: underline;
+          }
+          .search-result-excerpt {
+            color: #333333;
             font-family: Arial, Tahoma, Verdana, sans-serif;
             font-size: 12px;
             line-height: 20px;
-            color: #333333;
-            margin: 0;
-            overflow: hidden;
           }
-          .pagefind-ui__result-excerpt p {
-            margin: 0;
-            padding: 0;
-          }
-          .pagefind-ui mark {
+          .search-result mark {
             background: #f7ec73;
             color: inherit;
             padding: 0 1px;
           }
-          .pagefind-ui__button,
-          .pagefind-ui__search-clear {
-            border: 1px solid #7b6e5f;
-            background: #f7f7f7;
-            color: #333333;
-          }
-          .pagefind-ui__button:hover,
-          .pagefind-ui__search-clear:hover {
-            background: #efefef;
+          .search-empty {
+            color: #666666;
+            font-family: Arial, Tahoma, Verdana, sans-serif;
+            font-size: 12px;
+            margin-top: 10px;
           }
           @media (max-width: 640px) {
-            .pagefind-ui__result-thumb {
+            .search-result-thumb {
               float: none;
               margin: 0 0 10px;
+              width: fit-content;
             }
           }
         </style>
-        <div class="pagefind-shell">
-          <div id="site-search"></div>
+        <div class="search-shell">
+          <form class="search-form" id="site-search-form">
+            <span class="search-icon" aria-hidden="true">&#128269;</span>
+            <input id="site-search-input" type="search" name="q" placeholder="Search this website..." autocomplete="off">
+            <button id="site-search-clear" type="button">Clear</button>
+          </form>
+          <div id="site-search-count" class="search-count"></div>
+          <div id="site-search-results" class="search-results"></div>
         </div>
-        <script src="/pagefind/pagefind-ui.js"></script>
-        <script>
-          window.addEventListener("DOMContentLoaded", function () {
-            var params = new URLSearchParams(window.location.search);
-            var query = params.get("q") || "";
+        <script type="module">
+          const params = new URLSearchParams(window.location.search);
+          const initialQuery = params.get("q") || "";
+          const input = document.getElementById("site-search-input");
+          const clearButton = document.getElementById("site-search-clear");
+          const resultsNode = document.getElementById("site-search-results");
+          const countNode = document.getElementById("site-search-count");
 
-            new PagefindUI({
-              element: "#site-search",
-              bundlePath: "/pagefind/",
-              showSubResults: true,
-              excerptLength: 22,
-              resetStyles: false,
-              translations: {
-                placeholder: "Search this website..."
-              }
-            });
+          input.value = initialQuery;
 
-            if (!query) {
+          const escapeHtml = (value) =>
+            value
+              .replaceAll("&", "&amp;")
+              .replaceAll("<", "&lt;")
+              .replaceAll(">", "&gt;")
+              .replaceAll('"', "&quot;");
+
+          const updateQueryString = (query) => {
+            const next = new URL(window.location.href);
+            if (query) {
+              next.searchParams.set("q", query);
+            } else {
+              next.searchParams.delete("q");
+            }
+            window.history.replaceState({}, "", next);
+          };
+
+          const renderResults = async (query) => {
+            resultsNode.innerHTML = "";
+            countNode.textContent = "";
+
+            if (!query.trim()) {
               return;
             }
 
-            window.setTimeout(function () {
-              var input = document.querySelector(".pagefind-ui__search-input");
-              if (!input) {
-                return;
-              }
-              input.value = query;
-              input.dispatchEvent(new Event("input", { bubbles: true }));
-            }, 150);
+            const pagefind = await import("/pagefind/pagefind.js");
+            const search = await pagefind.debouncedSearch(query);
+
+            if (search === null) {
+              return;
+            }
+
+            countNode.textContent = `${search.results.length} Results for ${query}`.toUpperCase();
+
+            if (!search.results.length) {
+              resultsNode.innerHTML = '<p class="search-empty">No results found.</p>';
+              return;
+            }
+
+            const loaded = await Promise.all(search.results.map((result) => result.data()));
+            const html = loaded.map((result) => {
+              const title = escapeHtml(result.meta.title || result.url);
+              const image = result.meta.image
+                ? `<div class="search-result-thumb"><img src="${escapeHtml(result.meta.image)}" alt="${escapeHtml(result.meta.image_alt || "")}"></div>`
+                : "";
+
+              return `
+                <div class="search-result">
+                  <div class="search-result-inner">
+                    ${image}
+                    <h2 class="search-result-title"><a href="${escapeHtml(result.url)}">${title}</a></h2>
+                    <div class="search-result-excerpt">${result.excerpt}</div>
+                  </div>
+                </div>
+              `;
+            }).join("");
+
+            resultsNode.innerHTML = html;
+          };
+
+          let timeoutId;
+          const scheduleSearch = () => {
+            const query = input.value;
+            updateQueryString(query);
+            window.clearTimeout(timeoutId);
+            timeoutId = window.setTimeout(() => {
+              renderResults(query);
+            }, 120);
+          };
+
+          document.getElementById("site-search-form").addEventListener("submit", (event) => {
+            event.preventDefault();
+            scheduleSearch();
           });
+
+          input.addEventListener("input", scheduleSearch);
+          clearButton.addEventListener("click", () => {
+            input.value = "";
+            updateQueryString("");
+            countNode.textContent = "";
+            resultsNode.innerHTML = "";
+            input.focus();
+          });
+
+          renderResults(initialQuery);
         </script>
         <noscript><p>Search requires JavaScript to load the static search index.</p></noscript>
       </div>

@@ -1,0 +1,7 @@
+{{- $src := .src | default "" -}}
+{{- $alt := .alt | default "" -}}
+{{- if $src -}}
+<img src="{{ $src }}" alt="{{ $alt }}" data-pagefind-meta="image[src], image_alt[alt]" style="display:none" aria-hidden="true">
+{{- else -}}
+<meta data-pagefind-meta="image:">
+{{- end -}}
