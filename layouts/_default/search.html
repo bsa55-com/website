@@ -117,6 +117,25 @@
             font-size: 12px;
             margin-top: 10px;
           }
+          .search-more {
+            margin: 10px 0 0;
+          }
+          .search-more button {
+            display: block;
+            width: 100%;
+            border: 1px solid #7b6e5f;
+            background: #f5f2e8;
+            color: #4b4b4b;
+            font-family: Arial, Tahoma, Verdana, sans-serif;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 0.03em;
+            padding: 10px 12px;
+            cursor: pointer;
+          }
+          .search-more button:hover {
+            background: #ece5d4;
+          }
           @media (max-width: 640px) {
             .search-result-thumb {
               float: none;
@@ -141,6 +160,10 @@
           const clearButton = document.getElementById("site-search-clear");
           const resultsNode = document.getElementById("site-search-results");
           const countNode = document.getElementById("site-search-count");
+          const batchSize = 20;
+          let currentResults = [];
+          let renderedCount = 0;
+          let activeQueryToken = 0;
 
           input.value = initialQuery;
 
@@ -180,7 +203,56 @@
             window.history.replaceState({}, "", next);
           };
 
+          const renderResultItem = (data) => {
+            const title = escapeHtml(data.meta.title || data.url);
+            const image = data.meta.image
+              ? `<div class="search-result-thumb"><img src="${escapeHtml(data.meta.image)}" alt="${escapeHtml(data.meta.image_alt || "")}"></div>`
+              : "";
+
+            return `
+              <div class="search-result">
+                <div class="search-result-inner">
+                  ${image}
+                  <h2 class="search-result-title"><a href="${escapeHtml(data.url)}">${title}</a></h2>
+                  <div class="search-result-excerpt">${data.excerpt}</div>
+                </div>
+              </div>
+            `;
+          };
+
+          const renderNextBatch = () => {
+            if (!currentResults.length || renderedCount >= currentResults.length) {
+              return;
+            }
+
+            const nextCount = Math.min(renderedCount + batchSize, currentResults.length);
+            const html = currentResults
+              .slice(renderedCount, nextCount)
+              .map(({ data }) => renderResultItem(data))
+              .join("");
+
+            resultsNode.insertAdjacentHTML("beforeend", html);
+            renderedCount = nextCount;
+
+            const existingMore = document.getElementById("site-search-more");
+            if (existingMore) {
+              existingMore.remove();
+            }
+
+            if (renderedCount < currentResults.length) {
+              const more = document.createElement("div");
+              more.className = "search-more";
+              more.id = "site-search-more";
+              more.innerHTML = `<button type="button">Load more results</button>`;
+              more.querySelector("button").addEventListener("click", renderNextBatch);
+              resultsNode.appendChild(more);
+            }
+          };
+
           const renderResults = async (query) => {
+            const queryToken = ++activeQueryToken;
+            currentResults = [];
+            renderedCount = 0;
             resultsNode.innerHTML = "";
             countNode.textContent = "";
 
@@ -191,7 +263,7 @@
             const pagefind = await import("/pagefind/pagefind.js");
             const search = await pagefind.debouncedSearch(query);
 
-            if (search === null) {
+            if (search === null || queryToken !== activeQueryToken) {
               return;
             }
 
@@ -223,25 +295,12 @@
               }
               return a.originalIndex - b.originalIndex;
             });
+            if (queryToken !== activeQueryToken) {
+              return;
+            }
 
-            const html = loaded.map(({ data }) => {
-              const title = escapeHtml(data.meta.title || data.url);
-              const image = data.meta.image
-                ? `<div class="search-result-thumb"><img src="${escapeHtml(data.meta.image)}" alt="${escapeHtml(data.meta.image_alt || "")}"></div>`
-                : "";
-
-              return `
-                <div class="search-result">
-                  <div class="search-result-inner">
-                    ${image}
-                    <h2 class="search-result-title"><a href="${escapeHtml(data.url)}">${title}</a></h2>
-                    <div class="search-result-excerpt">${data.excerpt}</div>
-                  </div>
-                </div>
-              `;
-            }).join("");
-
-            resultsNode.innerHTML = html;
+            currentResults = loaded;
+            renderNextBatch();
           };
 
           let timeoutId;
@@ -261,6 +320,9 @@
 
           input.addEventListener("input", scheduleSearch);
           clearButton.addEventListener("click", () => {
+            activeQueryToken += 1;
+            currentResults = [];
+            renderedCount = 0;
             input.value = "";
             updateQueryString("");
             countNode.textContent = "";
