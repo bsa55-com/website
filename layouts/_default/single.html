@@ -10,7 +10,7 @@
       {{ $imgSrc = replaceRE `^src="([^"]+)"$` `$1` (index $srcParts 0) }}
     {{ end }}
   {{ end }}
-  {{ partial "pagefind_meta.html" (dict "src" $imgSrc) }}
+  {{ partial "pagefind_meta.html" (dict "src" $imgSrc "date" (.Date.Format "2006-01-02T15:04:05Z07:00")) }}
   <div class="breadcrumb">You are here: <a href="/" title="View Home">Home</a> / {{ .Title }}</div>
   <div class="post page type-page status-publish hentry">
     <h1 class="entry-title">{{ .Title }}</h1>
@@ -31,7 +31,7 @@
         {{ $imgSrc = replaceRE `^src="([^"]+)"$` `$1` (index $srcParts 0) }}
       {{ end }}
     {{ end }}
-    {{ partial "pagefind_meta.html" (dict "src" $imgSrc) }}
+    {{ partial "pagefind_meta.html" (dict "src" $imgSrc "date" (.Date.Format "2006-01-02T15:04:05Z07:00")) }}
     <div class="breadcrumb">You are here: <a href="/" title="View Home">Home</a> / {{ .Title }}</div>
     <div class="post page type-page status-publish hentry">
       <h1 class="entry-title">{{ .Title }}</h1>

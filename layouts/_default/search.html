@@ -151,6 +151,25 @@
               .replaceAll(">", "&gt;")
               .replaceAll('"', "&quot;");
 
+          const parseResultDate = (value) => {
+            if (!value) {
+              return null;
+            }
+            const time = Date.parse(value);
+            return Number.isNaN(time) ? null : time;
+          };
+
+          const freshnessBoost = (time) => {
+            if (!time) {
+              return 0;
+            }
+            const ageMs = Math.max(0, Date.now() - time);
+            const ageDays = ageMs / 86400000;
+            const maxBoost = 0.35;
+            const halfLifeDays = 365 * 3;
+            return maxBoost * Math.exp((-Math.LN2 * ageDays) / halfLifeDays);
+          };
+
           const updateQueryString = (query) => {
             const next = new URL(window.location.href);
             if (query) {
@@ -183,19 +202,40 @@
               return;
             }
 
-            const loaded = await Promise.all(search.results.map((result) => result.data()));
-            const html = loaded.map((result) => {
-              const title = escapeHtml(result.meta.title || result.url);
-              const image = result.meta.image
-                ? `<div class="search-result-thumb"><img src="${escapeHtml(result.meta.image)}" alt="${escapeHtml(result.meta.image_alt || "")}"></div>`
+            const loaded = await Promise.all(
+              search.results.map(async (result, index) => {
+                const data = await result.data();
+                const dateTime = parseResultDate(data.meta.date);
+                return {
+                  data,
+                  baseScore: typeof result.score === "number" ? result.score : 0,
+                  dateTime,
+                  originalIndex: index,
+                };
+              })
+            );
+
+            loaded.sort((a, b) => {
+              const scoreA = a.baseScore + freshnessBoost(a.dateTime);
+              const scoreB = b.baseScore + freshnessBoost(b.dateTime);
+              if (scoreB !== scoreA) {
+                return scoreB - scoreA;
+              }
+              return a.originalIndex - b.originalIndex;
+            });
+
+            const html = loaded.map(({ data }) => {
+              const title = escapeHtml(data.meta.title || data.url);
+              const image = data.meta.image
+                ? `<div class="search-result-thumb"><img src="${escapeHtml(data.meta.image)}" alt="${escapeHtml(data.meta.image_alt || "")}"></div>`
                 : "";
 
               return `
                 <div class="search-result">
                   <div class="search-result-inner">
                     ${image}
-                    <h2 class="search-result-title"><a href="${escapeHtml(result.url)}">${title}</a></h2>
-                    <div class="search-result-excerpt">${result.excerpt}</div>
+                    <h2 class="search-result-title"><a href="${escapeHtml(data.url)}">${title}</a></h2>
+                    <div class="search-result-excerpt">${data.excerpt}</div>
                   </div>
                 </div>
               `;
