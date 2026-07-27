@@ -198,7 +198,32 @@
     <div id="wrap">
       <div id="topnav">
         <div class="topnav-left">
-          <p>{{ now.Format "January 2, 2006" }}</p>
+          <p><time id="site-date" datetime="{{ now.Format "2006-01-02" }}">{{ now.Format "January 2, 2006" }}</time></p>
+          <script>
+            (function () {
+              var siteDate = document.getElementById("site-date");
+              if (!siteDate || !window.Intl || !window.Intl.DateTimeFormat) {
+                return;
+              }
+              var now = new Date();
+              siteDate.textContent = new Intl.DateTimeFormat("en-US", {
+                timeZone: "America/New_York",
+                month: "long",
+                day: "numeric",
+                year: "numeric"
+              }).format(now);
+              var parts = new Intl.DateTimeFormat("en-US", {
+                timeZone: "America/New_York",
+                year: "numeric",
+                month: "2-digit",
+                day: "2-digit"
+              }).formatToParts(now).reduce(function (values, part) {
+                values[part.type] = part.value;
+                return values;
+              }, {});
+              siteDate.setAttribute("datetime", parts.year + "-" + parts.month + "-" + parts.day);
+            }());
+          </script>
         </div>
         <div class="topnav-right"></div>
       </div>
