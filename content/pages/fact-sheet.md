@@ -40,7 +40,7 @@ courses.</p>
 <p><strong>Parent Participation </strong>&#8211; We expect all parents to contribute in some fashion for the betterment of the Scouting program of Troop 55. Troop 55 is a large organization and areas where we need parent help may be found in this handbook.</p>
 <p>If you have any questions about our program, please feel free to ask any of the uniformed leaders you see at a<br />
 troop meeting. In addition, you may contact the following individuals at any time:</p>
-<p style="text-align: center;">Jeff Ye, Troop 55 Boys Scoutmaster<br />
+<p style="text-align: center;">Fadi Shadid, Troop 55 Boys Scoutmaster<br />
 Gary Pan, Troop 55 Girls Scoutmaster<br />
 Michael Ray, Committee Chairman</p>
 <p><strong>BSA TROOP 55 REQUIRED AND RECOMMENDED TRAINING</strong></p>
